@@ -1,0 +1,28 @@
+{
+  "name": "boyar-back",
+  "version": "1.0.0",
+  "description": "boyarserver",
+  "main": "index.js",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.5.1",
+    "pg-promise": "^10.9.2",
+    "socket.io": "^3.1.0"
+  },
+  "devDependencies": {
+    "node-pre-gyp": "0.12.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ANDREYMAD",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndreyMad/boyar-back.git"
+  }
+}

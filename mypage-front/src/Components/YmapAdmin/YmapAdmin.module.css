@@ -1,0 +1,73 @@
+.list {
+  list-style: none;
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.list > li {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.list > li :first-of-type {
+  margin-right: 20px;
+  font-weight: bold;
+}
+.list > li > a {
+  text-decoration: none;
+}
+.deleteBtn {
+  margin-left: auto;
+  border-radius: 50%;
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  height: 100%;
+  margin-right: 30px;
+  transition: 200ms;
+}
+.deleteBtn:hover {
+  transition: 200ms;
+  transform: rotatez(135deg);
+  cursor: pointer;
+}
+.formInput {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 100px;
+  justify-content: space-between;
+}
+.formInput > input {
+  width: 45%;
+  height: 25px;
+}
+.formInput > textarea {
+  height: 100%;
+}
+
+.editBtn {
+  background-image: url("../../img/edit.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+  background-color: white;
+  width: 17px;
+  transition: 300ms;
+}
+.editBtn:hover {
+  cursor: pointer;
+  width: 19px;
+  transition: 300ms;
+  outline: none;
+}
+.editBtn:active,
+.editBtn:focus,
+.deleteBtn:active,
+.deleteBtn:focus {
+  outline: none;
+  border: none;
+}
